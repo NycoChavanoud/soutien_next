@@ -1,6 +1,31 @@
 .userCardContainer {
   color: whitesmoke;
   background: black;
-  height: 50px;
-  width: 80%;
+  min-height: 50px;
+  width: 70%;
+  margin: 15px auto;
+  border-radius: 1em;
+  padding: 5px;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  color: orangered;
+  font-size: 2em;
+}
+
+.descriptionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: justify;
+  margin: 10px auto;
+}
+
+.city {
+  font-size: 0.6em;
+  color: whitesmoke;
 }

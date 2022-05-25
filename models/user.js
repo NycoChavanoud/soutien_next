@@ -10,3 +10,5 @@ module.exports.createUser = async ({
     data: { firstname, lastname, city, description },
   });
 };
+
+module.exports.getUsers = () => db.user.findMany();
