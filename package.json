@@ -8,7 +8,7 @@
     "start": "next start",
     "cypress": "cypress open",
     "lint": "next lint",
-    "seed": "npx prisma db seed"
+    "seed":"esbuild prisma/seed.ts --outfile=node_modules/tmp-seed.cjs --bundle --format=cjs --external:prisma --external:@prisma/client && node node_modules/tmp-seed.cjs --preview-feature"
   },
   "dependencies": {
     "@prisma/client": "^3.14.0",
@@ -42,3 +42,7 @@
     "seed": "node prisma/seed.js"
   }
 }
+
+
+
+  

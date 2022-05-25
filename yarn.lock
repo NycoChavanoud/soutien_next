@@ -774,6 +774,37 @@
     "is-date-object" "^1.0.1"
     "is-symbol" "^1.0.2"
 
+"esbuild-darwin-arm64@0.14.39":
+  "integrity" "sha512-/fcQ5UhE05OiT+bW5v7/up1bDsnvaRZPJxXwzXsMRrr7rZqPa85vayrD723oWMT64dhrgWeA3FIneF8yER0XTw=="
+  "resolved" "https://registry.npmjs.org/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.39.tgz"
+  "version" "0.14.39"
+
+"esbuild@^0.14.39":
+  "integrity" "sha512-2kKujuzvRWYtwvNjYDY444LQIA3TyJhJIX3Yo4+qkFlDDtGlSicWgeHVJqMUP/2sSfH10PGwfsj+O2ro1m10xQ=="
+  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.39.tgz"
+  "version" "0.14.39"
+  optionalDependencies:
+    "esbuild-android-64" "0.14.39"
+    "esbuild-android-arm64" "0.14.39"
+    "esbuild-darwin-64" "0.14.39"
+    "esbuild-darwin-arm64" "0.14.39"
+    "esbuild-freebsd-64" "0.14.39"
+    "esbuild-freebsd-arm64" "0.14.39"
+    "esbuild-linux-32" "0.14.39"
+    "esbuild-linux-64" "0.14.39"
+    "esbuild-linux-arm" "0.14.39"
+    "esbuild-linux-arm64" "0.14.39"
+    "esbuild-linux-mips64le" "0.14.39"
+    "esbuild-linux-ppc64le" "0.14.39"
+    "esbuild-linux-riscv64" "0.14.39"
+    "esbuild-linux-s390x" "0.14.39"
+    "esbuild-netbsd-64" "0.14.39"
+    "esbuild-openbsd-64" "0.14.39"
+    "esbuild-sunos-64" "0.14.39"
+    "esbuild-windows-32" "0.14.39"
+    "esbuild-windows-64" "0.14.39"
+    "esbuild-windows-arm64" "0.14.39"
+
 "escape-string-regexp@^1.0.5":
   "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
   "resolved" "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
