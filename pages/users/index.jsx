@@ -1,9 +1,10 @@
 import Layout from "../../components/Layout";
+import UsersList from "../../components/UsersList";
 
 const index = () => {
   return (
     <Layout>
-      <div>user list</div>
+      <UsersList />
     </Layout>
   );
 };

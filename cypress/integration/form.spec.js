@@ -7,6 +7,7 @@ describe("Form", function () {
     cy.get('[data-cy="description"]').type(
       "lorem ipsum nicolum fatum maesunum de et lae imprvisum"
     );
+    cy.get('[data-cy="formAddUsers"]').submit();
     cy.url().should("include", "/users");
   });
 });
